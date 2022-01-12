@@ -17,8 +17,15 @@ main{
     width: 870px;
     padding: 30px;
 }
+h3, p{
+    margin: 0;
+}
 hr{
     border: 1px solid #D1D1D1;
+}
+a{
+    text-decoration: none;
+    color: #562EFF;
 }
 /* ----------------
 top players
@@ -45,4 +52,22 @@ top players
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+}
+/* --------------
+    blogs
+----------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.blog-author{
+    color: #9F9F9F;
 }
