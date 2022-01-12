@@ -35,42 +35,6 @@ a{
 /* ----------------
 header area
 ------------------- */
-header{
-    margin: 0;
-    color: #FFFFFF;
-    background-color: #562EFF;
-}
-.header-area{
-    width: 870px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.logo-area{
-    display: flex;
-}
-.logo-area img{
-    width: 40px;
-    height: 50px;
-}
-.login-area ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.login-area ul li{
-    list-style: none;
-
-}
-.login-area ul li a{
-    color: #ffffff;
-    justify-content: space-between;
-}
-.login-area ul li a img{
-    width: 50px;
-    height: 50px;
-}
 
 /* ----------------
 top players
@@ -174,4 +138,8 @@ top players
     color: #FF4A60;
     background-color: #eeccd1;
     font-size: 20px;
+}
+@media screen and max-width: 667 {
+    
+    
 }
